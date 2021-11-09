@@ -19,6 +19,9 @@ function checkBox(number) {
     //   "linear-gradient(315deg, #7f5a83 0%, #0d324d 74%)";
     document.body.style.backgroundImage =
       "url(https://i.pinimg.com/originals/e6/d6/de/e6d6de4b2197cc8e4e12555e121e0f0a.gif)";
+
+ 
+      document.body.style.background = "#ac46a1;";
   }
   if (number == 2) {
     document.body.style.background = "#90d5ec";
@@ -30,12 +33,14 @@ function checkBox(number) {
   if (number == 3) {
     document.body.style.background = "#fce043;";
     document.body.style.background =
-      "linear-gradient(315deg, #fce043 0%, #fb7ba2 74%)";
+      "#343a40";
+
+
   }
   if (number == 4) {
     document.body.style.background = "#003b64;";
     document.body.style.background =
-      "linear-gradient(315deg, #003b64 0%, #fff200 74%)";
+      "#3e1f47";
   }
   if (number == 5) {
     document.body.style.background = "#fdb813;";

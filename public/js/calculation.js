@@ -58,9 +58,15 @@ function solve() {
             let li = document.createElement("li");
             let li2 = document.createElement("li");
             let li3 = document.createElement("li");
-            li.innerHTML = `${orbitals[j][0]}p<sub>x</sub> ----> 3GP , 1CF`;
-            li2.innerHTML = `${orbitals[j][0]}p<sub>y</sub> ----> 3GP , 1CF`;
-            li3.innerHTML = `${orbitals[j][0]}p<sub>z</sub> ----> 3GP , 1CF<br>`; //list->list_split->ilist
+            li.innerHTML = `${orbitals[j][0]}p<sub>x</sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF`;
+            li2.innerHTML = `${orbitals[j][0]}p<sub>y</sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF`;
+            li3.innerHTML = `${orbitals[j][0]}p<sub>z</sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF<br>`; //list->list_split->ilist
  
             ilist.appendChild(li);
             ilist.appendChild(li2);
@@ -84,11 +90,19 @@ function solve() {
             let li3 = document.createElement("li");
             let li4 = document.createElement("li");
             let li5 = document.createElement("li");
-            li.innerHTML = `${orbitals[j][0]}d<sub>xy</sub> ----> 3GP , 1CF`;
-            li2.innerHTML = `${orbitals[j][0]}d<sub>yz</sub> ----> 3GP , 1CF`;
-            li3.innerHTML = `${orbitals[j][0]}d<sub>xz</sub> ----> 3GP , 1CF`;
-            li4.innerHTML = `${orbitals[j][0]}d<sub>x<sup>2</sup>-y<sup>2</sup></sub> ----> 3GP , 1CF`;
-            li5.innerHTML = `${orbitals[j][0]}d<sub>z<sup>2</sup></sub> ----> 3GP , 1CF`;
+            li.innerHTML = `${orbitals[j][0]}d<sub>xy</sub> <i class="bi bi-arrow-right"></i> 3GP , 1CF`;
+            li2.innerHTML = `${orbitals[j][0]}d<sub>yz</sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF`;
+            li3.innerHTML = `${orbitals[j][0]}d<sub>xz</sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF`;
+            li4.innerHTML = `${orbitals[j][0]}d<sub>x<sup>2</sup>-y<sup>2</sup></sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF`;
+            li5.innerHTML = `${orbitals[j][0]}d<sub>z<sup>2</sup></sub> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>3GP , 1CF`;
             ilist.appendChild(li);
             ilist.appendChild(li2);
             ilist.appendChild(li3);
@@ -110,7 +124,9 @@ function solve() {
           if (orbitals[j][1] == "s") {
             console.log("in s");
             let li = document.createElement("li");
-            li.innerHTML = `${orbitals[j][0]}s ----> 3GP , 1CF`;
+            li.innerHTML = `${orbitals[j][0]}s <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> 3GP , 1CF`;
             list_split.appendChild(li);
             list.appendChild(list_split);
  
@@ -131,8 +147,8 @@ function solve() {
   var li2 = document.createElement("ul");
   li.style.listStyleType = "none";
   li2.style.listStyleType = "none";
-  li.innerHTML = `<center> TOTAL COUNT </center> <br> <center>GP's => ${gp}</center>`;
-  li2.innerHTML = `<center>CF's => ${cf}</center>`;
+  li.innerHTML = `<center> <p style="margin-right=100px;">TOTAL COUNT </center> <br> <center><b><h3 style="display: inline;">Gaussian Primitives</h3></b> <i class="fas fa-equals"></i> ${gp}</center>`;
+  li2.innerHTML = `<center><b> <h3 style="display: inline;">Contracted Functions</h3> </b><i class="fas fa-equals"></i> ${cf}</center>`;
  
   list.appendChild(li);
   list.appendChild(li2);
