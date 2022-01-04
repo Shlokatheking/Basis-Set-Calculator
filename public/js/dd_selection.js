@@ -1,6 +1,4 @@
 
-
-
 function selection() {
   // let option = $("#select option:selected").text();
   var e = document.getElementById("select");

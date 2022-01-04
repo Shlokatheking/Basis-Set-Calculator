@@ -11,7 +11,6 @@
 // app.use(express.urlencoded({ extended: true }));
 // app.use(express.json());
 
-
 function checkBox(number) {
   if (number == 1) {
     // document.body.style.background = "#7f5a83";
@@ -24,7 +23,7 @@ function checkBox(number) {
       document.body.style.background = "#ac46a1;";
   }
   if (number == 2) {
-    document.body.style.background = "#90d5ec";
+    document.body.style.background = "#90d5ec";0
     document.body.style.background =
       "linear-gradient(315deg, #90d5ec 0%, #fc575e 74%)";
     // document.body.style.backgroundImage =

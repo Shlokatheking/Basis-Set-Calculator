@@ -10,20 +10,20 @@
 /* Create three equal columns that floats next to each other */
 .column1 {
   float: left;
-  width: 20%;
+  width: 19%;
   padding: 10px;
   height: 100%; /* Should be removed. Only for demonstration */
 }
 
 .column2 {
   float: left;
-  width: 60%;
+  width: 62%;
   padding: 10px;
   height: 100%; /* Should be removed. Only for demonstration */
 }
 .column3 {
   float: left;
-  width: 20%;
+  width: 19%;
   padding: 10px;
   height: 100%; /* Should be removed. Only for demonstration */
 }
@@ -62,61 +62,45 @@
 <body id="mainBT">
 
 
-
 <div id="yolo">
-  <h2> <center>GAUSSIAN FUNCTION CALCULATOR</center></h2>
+ 
+  <!-- <h2> <center>BASIS SET CALCULATOR</center></h2> -->
+  <!-- <center><a href="https://www.fontspace.com/category/periodic-table"><img src="https://see.fontimg.com/api/renderfont4/zG0w/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/QmFzaXMgU2V0IENhbGN1bGF0b3I/heart-breaking-bad.png" alt="Periodic Table fonts" style="color: blanchedalmond;"></a></center> -->
+  <br>
+  <center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjo0MCwidyI6MTI1MCwiZnMiOjMyLCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/QmFzaXMgU2V0IENhbGN1bGF0b3I/party-confetti-regular.png" alt=""></center>
   <br>
   <div class="row">
     <div class="column1">
-      <h2 ><center>Gaussian Parameters</center> </h2>  
-      <div >
-          <center>
-              <div class="login-box">
-                  <h2>Compound</h2>
-                  <form >
-                    <div class="user-box">
-                          <div id="compound" style="color: white; font-size: 22px; margin-top: 30px;">Comp</div>
-                    </div>
-                    
 
-                    <form >
-                    <div>
-                      <select class="dd" id="select">
-                        <option value="STO-3G">STO-3G</option>
-                        <option value="6-21G">6-21G</option>
-                        <option value="3-21G">3-21G</option>
-                      </select>
-                      </div>
-                
-                    <div style="margin-top: 1px;">
-                    <a onclick="calculate()">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      Calculate
-                    </a> 
-
-                    <a href="#" onclick="reset()">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      Reset
-                    </a>
-                  </div>
-                  </form>
+      
+          
+    <h2 style=" align-content: center;"><center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/VHV0b3JpYWw/party-confetti-regular.png" alt=""></center></h2>
+      <center>
+        <div class="login-box">
+          <a class="bt" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" > <center>Gaussian Basis Sets</center></a>
+          <br>
+          <iframe width="240" height="200" src="https://www.youtube.com/embed/lN_iLd1exVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!-- <br>
+          <a class="bt" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" ><center>Gaussian Basis Sets</center></a>
+          <br>
+          <a class="bt" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" > <center>Gaussian Basis Sets</center></a>
+          -->
+      
+          </div>
+      </center>
   
-                </div>
-          </center>
-      </div>
-      <br>
+
+
+
+
 
     </div>
     
     <div class="column2" >
-      <h2>  <center> Periodic Table</center> </h2>
-      <div>
+      <h2>  <center> <img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/UGVyaW9kaWMgVGFibGU/party-confetti-regular.png" alt=""></center> </h2>
+    
+
+      
+      <div id="periodic_table">
           <div class="periodic w-100 h-101 container justify-content:center" style="height: 500px; ;">
               <div class="periodic-row">  
                 <div class="cell" onclick="SelectElement(1,`H`)">
@@ -1016,59 +1000,53 @@
   
       </div>
     </div>
-    <div class="column3">
-      <h2 style=" align-content: center;"><center>Settings</center></h2>
-      <h2>Select Theme</h2>
-  <!-- <label class="container">One
-    <input type="radio" onclick="checkBox(1)">
-    <span class="checkmark"></span>
-  </label>
-  <label class="container" >Two
-    <input type="radio" onclick="checkBox(2)">
-    <span class="checkmark"></span>
-  </label>
-  <label class="container" >Three
-    <input type="radio" onclick="checkBox(3)">
-    <span class="checkmark"></span>
-  </label>
-  <label class="container" >Four
-    <input type="radio" onclick="checkBox(4)">
-    <span class="checkmark"></span>
-  </label>
-  <label class="container" >Five
-    <input type="radio" onclick="checkBox(5)">
-    <span class="checkmark"></span>
-  </label>
-   -->
+    
+  <div class="column3">
 
+    <h2 ><center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/Q2F0ZWdvcnk/party-confetti-regular.png" alt=""></center> </h2>  
+    <div >
+        <center>
+            <div class="login-box">
+                <p style="font-size: 2.85vh;"><b>Molecular Formula</b></p>
+                <form >
+                  <div class="user-box">
+                        <div id="compound" style="color: white; font-size: 22px; margin-top: 25px;">Comp</div>
+                  </div>
+                  
 
-<div>
-  <input type="radio" id="Tone" name="drone" value="Theme 1"
-         checked onclick="checkBox(1)">
-  <label for="Tone">Solar Space</label>
-</div>
+                  <form >
+                  <div>
+                    <select class="dd" id="select">
+                      <option value="STO-3G">STO-3G</option>
+                      <option value="6-21G">6-21G</option>
+                      <option value="3-21G">3-21G</option>
+                      <option value="6-31G">6-31G</option>
+                    </select>
+                    </div>
+              
+                  <div style="margin-top: 1px;">
+                  <a onclick="calculate()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Calculate
+                  </a> 
 
-<!-- <div>
-  <input type="radio" id="Ttwo" name="drone" value="Theme 2" onclick="checkBox(2)">
-  <label for="Ttwo">Theme 2</label>
-</div> -->
+                  <a href="#" onclick="reset()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Reset
+                  </a>
+                </div>
+                </form>
 
-<div>
-  <input type="radio" id="Tthree" name="drone" value="Theme 3" onclick="checkBox(3)">
-  <label for="Tthree">Monokai</label>
-</div>
-<div>
-  <input type="radio" id="Tfour" name="drone" value="Theme 4" onclick="checkBox(4)">
-  <label for="Tthree">Eclipse</label>
-</div>
-<!-- <div>
-  <input type="radio" id="Tfive" name="drone" value="Theme 5" onclick="checkBox(5)">
-  <label for="Tthree"></label>
-</div> -->
-
-      <!-- <div>
-          <img src="https://thumbs.gfycat.com/SarcasticDiligentBushsqueaker-size_restricted.gif" alt="" style="width: 300px; box-shadow: violet;">
-      </div> -->
+              </div>
+        </center>
+    </div>
+    <br>
 
     
 

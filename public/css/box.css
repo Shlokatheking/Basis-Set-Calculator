@@ -9,7 +9,7 @@ html {
   width: 275px;
   height: 350px;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
   /* transform: translate(-50%, -50%); */
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
@@ -72,12 +72,33 @@ html {
   letter-spacing: 4px;
 }
 
+.login-box a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .2s;
+  margin-top: 20px;
+  letter-spacing: 4px;
+}
+
+
+/* .bt:hover{
+    
+  color:black;
+} */
 .login-box a:hover {
+  
   background: #03e9f4;
-  color: #fff;
+  color: black;
+  font-weight: bold;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #d1e3e4, 0 0 50px #3c4d4e,
-    0 0 100px #d1e3e4;
+  
 }
 
 .login-box a span {
