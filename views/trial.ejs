@@ -13,6 +13,7 @@
   width: 19%;
   padding: 10px;
   height: 100%; /* Should be removed. Only for demonstration */
+
 }
 
 .column2 {
@@ -20,6 +21,7 @@
   width: 62%;
   padding: 10px;
   height: 100%; /* Should be removed. Only for demonstration */
+  
 }
 .column3 {
   float: left;
@@ -28,6 +30,260 @@
   height: 100%; /* Should be removed. Only for demonstration */
 }
 
+@media(max-width :1000px)
+{
+  #calc_reset{
+    width:80%;
+  }
+
+
+}
+
+@media (max-width:900px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    width: 100%;
+    float: none;
+  
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+  #hello{
+    width:80%;
+  }
+  #calc_reset{
+    width: 80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+ 
+}
+@media (max-width:800px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: left;
+  }
+  .column3{
+    width: 100%;
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+ 
+}
+@media (max-width:700px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    /* width: 100%; */
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+
+}@media (max-width:600px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    /* width: 100%; */
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+
+}
+@media (max-width:500px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    /* width: 100%; */
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+
+}
+@media (max-width:450px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    /* width: 100%; */
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+
+}
+@media (max-width:400px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    /* width: 100%; */
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+
+}
+@media (max-width:300px){
+  .column2{
+    display: none;
+  }
+  .column1{
+    display: none;
+  }
+  .newcol{
+    display: flex;
+    justify-content: center;
+  }
+  .column3{
+    /* width: 100%; */
+    float: none;
+
+  }
+  .inncol3{
+    display: flex;
+    justify-content: center;
+  }
+
+  #hello{
+    width:80%;
+  }
+  #hemlo{
+    width: 80%;
+  }
+
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -67,19 +323,19 @@
   <!-- <h2> <center>BASIS SET CALCULATOR</center></h2> -->
   <!-- <center><a href="https://www.fontspace.com/category/periodic-table"><img src="https://see.fontimg.com/api/renderfont4/zG0w/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/QmFzaXMgU2V0IENhbGN1bGF0b3I/heart-breaking-bad.png" alt="Periodic Table fonts" style="color: blanchedalmond;"></a></center> -->
   <br>
-  <center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjo0MCwidyI6MTI1MCwiZnMiOjMyLCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/QmFzaXMgU2V0IENhbGN1bGF0b3I/party-confetti-regular.png" alt=""></center>
+  <center><img id="hemlo" src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjo0MCwidyI6MTI1MCwiZnMiOjMyLCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/QmFzaXMgU2V0IENhbGN1bGF0b3I/party-confetti-regular.png" alt=""></center>
   <br>
   <div class="row">
     <div class="column1">
 
       
           
-    <h2 style=" align-content: center;"><center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/VHV0b3JpYWw/party-confetti-regular.png" alt=""></center></h2>
+    <h2 id="hello" style=" align-content: center;"><center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/VHV0b3JpYWw/party-confetti-regular.png" alt=""></center></h2>
       <center>
         <div class="login-box">
-          <a class="bt" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" > <center>Gaussian Basis Sets</center></a>
+          <a class="bt" style="font-size: 90%;" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" > <center>Gaussian Basis Sets</center></a>
           <br>
-          <iframe width="240" height="200" src="https://www.youtube.com/embed/lN_iLd1exVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!-- <br>
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/lN_iLd1exVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!-- <br>
           <a class="bt" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" ><center>Gaussian Basis Sets</center></a>
           <br>
           <a class="bt" href="https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/11%3A_Computational_Quantum_Chemistry/11.02%3A_Gaussian_Basis_Sets" target="_blank" > <center>Gaussian Basis Sets</center></a>
@@ -1000,17 +1256,19 @@
   
       </div>
     </div>
-    
+    <div class="newcol">
+
+ 
   <div class="column3">
 
-    <h2 ><center><img src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/Q2F0ZWdvcnk/party-confetti-regular.png" alt=""></center> </h2>  
-    <div >
+    <h2 ><center><img id="hemlo2" src="https://see.fontimg.com/api/renderfont4/eZOn3/eyJyIjoiZnMiLCJoIjoyMSwidyI6MTI1MCwiZnMiOjE3LCJmZ2MiOiIjRjJFQkVCIiwiYmdjIjoiIzBFMDUyMiIsInQiOjF9/Q2F0ZWdvcnk/party-confetti-regular.png" alt=""></center> </h2>  
+   <div class="inncol3">
         <center>
             <div class="login-box">
                 <p style="font-size: 2.85vh;"><b>Molecular Formula</b></p>
                 <form >
                   <div class="user-box">
-                        <div id="compound" style="color: white; font-size: 22px; margin-top: 25px;">Comp</div>
+                        <div id="compound" style="color: white; font-size: 22px; margin-top: 25px;"></div>
                   </div>
                   
 
@@ -1024,8 +1282,8 @@
                     </select>
                     </div>
               
-                  <div style="margin-top: 1px;">
-                  <a onclick="calculate()">
+                  <div id="calc_reset" style="margin-top: 1px; width: 80%; display: flex; flex-direction: column; align-items: center;">
+                  <a onclick="calculate()" style="width: 80%; text-align: center;" >
                     <span></span>
                     <span></span>
                     <span></span>
@@ -1045,7 +1303,7 @@
 
               </div>
         </center>
-    </div>
+      </div>
     <br>
 
     
@@ -1055,6 +1313,7 @@
 
 
     </div>
+  </div>
   </div>
 </div>
 

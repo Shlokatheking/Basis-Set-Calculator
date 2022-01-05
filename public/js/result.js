@@ -1,4 +1,3 @@
-
 function back(){
     window.location = "/";             
 }   
